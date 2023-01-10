@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 1170px;
+  background-color: #90deed;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 15px;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

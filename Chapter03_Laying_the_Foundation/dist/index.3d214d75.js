@@ -2905,51 +2905,207 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-// const heading1 = React.createElement('h1',{},"Namaste React");
-// const heading2 = React.createElement('h2',{},"Course by Akshay Saini")
-// const heading3 = React.createElement('h3',{},"This is a JSX Example");
-// const div = React.createElement('div',{class:"title"},[heading1, heading2, heading3])
-const TitleComponent = ()=>{
+const header = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
+    className: "title"
+}, [
+    /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
+        key: "h1"
+    }, "Namaste React"),
+    /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {
+        key: "h2"
+    }, "Course by Akshay Saini"),
+    /*#__PURE__*/ (0, _reactDefault.default).createElement("h3", {
+        key: "h3"
+    }, "This is a Nested Header Example")
+]);
+const TitleComponent = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    className: "title",
+    children: [
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+            children: "Namaste React"
+        }, void 0, false, {
+            fileName: "index.js",
+            lineNumber: 13,
+            columnNumber: 9
+        }, undefined),
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+            children: "Course by Akshay Saini"
+        }, void 0, false, {
+            fileName: "index.js",
+            lineNumber: 14,
+            columnNumber: 9
+        }, undefined),
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+            children: "This is same example using JSX Component"
+        }, void 0, false, {
+            fileName: "index.js",
+            lineNumber: 15,
+            columnNumber: 9
+        }, undefined)
+    ]
+}, void 0, true, {
+    fileName: "index.js",
+    lineNumber: 12,
+    columnNumber: 24
+}, undefined);
+const TitleFunctionalComponent = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "title",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                id: "h1",
                 children: "Namaste React"
             }, void 0, false, {
                 fileName: "index.js",
-                lineNumber: 11,
+                lineNumber: 19,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                id: "h2",
                 children: "Course by Akshay Saini"
             }, void 0, false, {
                 fileName: "index.js",
-                lineNumber: 12,
+                lineNumber: 20,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: "This is a JSX Example"
+                id: "h3",
+                children: "This is same example using JSX Functional Component"
             }, void 0, false, {
                 fileName: "index.js",
-                lineNumber: 13,
+                lineNumber: 21,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "index.js",
-        lineNumber: 10,
-        columnNumber: 13
+        lineNumber: 18,
+        columnNumber: 10
     }, undefined);
 };
-_c = TitleComponent;
+_c = TitleFunctionalComponent;
+const CompositionalComponent = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            TitleFunctionalComponent(),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "This is a Compositional Component"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 27,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "index.js",
+        lineNumber: 25,
+        columnNumber: 10
+    }, undefined);
+};
+_c1 = CompositionalComponent;
+const Logo = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+            src: "https://www.rswebs.in/wp-content/uploads/2019/08/rs.png"
+        }, void 0, false, {
+            fileName: "index.js",
+            lineNumber: 32,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "index.js",
+        lineNumber: 31,
+        columnNumber: 10
+    }, undefined);
+};
+_c2 = Logo;
+const SearchBar = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "search"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 37,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                    class: "fa-solid fa-search"
+                }, void 0, false, {
+                    fileName: "index.js",
+                    lineNumber: 38,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 38,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "index.js",
+        lineNumber: 36,
+        columnNumber: 10
+    }, undefined);
+};
+_c3 = SearchBar;
+const UserIcon = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+            class: "fa-solid fa-user"
+        }, void 0, false, {
+            fileName: "index.js",
+            lineNumber: 43,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "index.js",
+        lineNumber: 42,
+        columnNumber: 10
+    }, undefined);
+};
+_c4 = UserIcon;
+const Header = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {}, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 48,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SearchBar, {}, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 49,
+                columnNumber: 9
+            }, undefined),
+            UserIcon()
+        ]
+    }, void 0, true, {
+        fileName: "index.js",
+        lineNumber: 47,
+        columnNumber: 10
+    }, undefined);
+};
+_c5 = Header;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TitleComponent, {}, void 0, false, {
+//root.render(header);
+//root.render(TitleComponent);
+//root.render(<TitleFunctionalComponent/>);
+//root.render(<CompositionalComponent></CompositionalComponent>)
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
     fileName: "index.js",
-    lineNumber: 18,
+    lineNumber: 59,
     columnNumber: 13
 }, undefined));
-var _c;
-$RefreshReg$(_c, "TitleComponent");
+var _c, _c1, _c2, _c3, _c4, _c5;
+$RefreshReg$(_c, "TitleFunctionalComponent");
+$RefreshReg$(_c1, "CompositionalComponent");
+$RefreshReg$(_c2, "Logo");
+$RefreshReg$(_c3, "SearchBar");
+$RefreshReg$(_c4, "UserIcon");
+$RefreshReg$(_c5, "Header");
 
   $parcel$ReactRefreshHelpers$e4e3.postlude(module);
 } finally {

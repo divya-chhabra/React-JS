@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+#container{
+    width:1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    background-color: rgb(144, 222, 237);
+}
