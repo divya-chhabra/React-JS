@@ -7,6 +7,9 @@ Default Export is exporting a variable or function using "export default" as key
 
 One file can have a single default export.
 
+* as can be used to import all which is exported from a file,with another name as an object.
+And later whatever is exported, can be accessed using object.
+
 
 What is the importance of config.js?
 
